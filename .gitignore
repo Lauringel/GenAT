@@ -235,5 +235,6 @@ notebooks/taming/
 # ignore locall used scripts
 *_local.py
 
-# ignore run.sh
+# ignore run.sh and GPU/SLURM job-output logs
 /run.sh
+*.out
