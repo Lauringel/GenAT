@@ -231,3 +231,9 @@ checkpoints/
 
 # Local copy of taming
 notebooks/taming/
+
+# ignore locall used scripts
+*_local.py
+
+# ignore run.sh
+/run.sh
