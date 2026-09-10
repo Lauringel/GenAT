@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# imgs
+/pictures
+
+# Generated paper plots
+results/plots_paper/
+
+# checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Local copy of taming
+notebooks/taming/

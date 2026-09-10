@@ -1,0 +1,27 @@
+# <2 because pytorch-lightning==1.0.8 (and possibly other 2020-era deps below) use
+# aliases like np.Inf that NumPy 2.0 removed.
+numpy<2
+scipy
+pandas
+matplotlib
+tifffile
+scikit-image
+Pillow
+opencv-python
+omegaconf
+einops
+torch
+torchvision
+jupyter
+
+# Required by taming-transformers (VQModel subclasses pl.LightningModule), not declared in
+# its own setup.py. Pinned to 1.0.8 since that code uses old APIs (e.g. pl.TrainResult)
+# removed in later pytorch_lightning versions.
+pytorch-lightning==1.0.8
+
+# pytorch-lightning==1.0.8 still relies on pkg_resources, which recent setuptools
+# versions (81+) removed.
+setuptools<81
+
+# taming-transformers (VQGAN) and DeepCrack are not pip-installed — see the README's
+# "Model Checkpoints" section for cloning them as local checkouts.
