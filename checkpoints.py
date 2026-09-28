@@ -14,9 +14,9 @@ import urllib.request
 
 # ADAPT: swap to "https://zenodo.org" and the real record IDs once published for real.
 # Currently point at Zenodo Sandbox records used to rehearse the upload/download flow.
-ZENODO_BASE_URL = "https://sandbox.zenodo.org"
-VQGAN_ZENODO_RECORD_ID = "537618"
-DEEPCRACK_ZENODO_RECORD_ID = "596145"
+ZENODO_BASE_URL = "https://zenodo.org"
+VQGAN_ZENODO_RECORD_ID = "21258301"
+DEEPCRACK_ZENODO_RECORD_ID = "22968130"
 
 DEEPCRACK_REPO_URL = "https://github.com/qinnzou/DeepCrack"
 
